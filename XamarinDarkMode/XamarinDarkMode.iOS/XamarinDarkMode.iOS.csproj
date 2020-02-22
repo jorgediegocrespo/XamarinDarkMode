@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="Renderers\PageRenderer.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -129,5 +130,11 @@
       <Project>{7DFCFD17-A635-48B1-9012-C7614F743047}</Project>
       <Name>XamarinDarkMode</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\darkCloud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\lightCloud.png" />
   </ItemGroup>
 </Project>
